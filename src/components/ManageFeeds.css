@@ -1,0 +1,65 @@
+.manage-feed-button {
+  padding: 5px 10px 5px 10px;
+  text-align: center;
+  font-size: 15px;
+}
+.manage-feed-modal-button {
+  position: fixed;
+  top: calc(100vh - 80%);
+  left: calc(100vw - 10.5%);
+  border-radius: 50%;
+  background: rgb(201, 194, 194);
+  border-color: transparent;
+  font-size: 30px;
+  font-weight: 800;
+  color: rgb(255, 0, 0);
+}
+.manage-feed-modal-button:hover {
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
+.new-rss {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 5.7%;
+  padding-right: 5.7vw;
+  margin-top: 5%;
+}
+
+.rss-url {
+  margin-right: 0.5%;
+  width: 50%;
+}
+
+.rss-url-button {
+  margin-left: 0.5%;
+}
+
+.remove-rss {
+  flex-wrap: wrap;
+  border-top: 1px solid black;
+  margin-top: 2%;
+  padding-left: 5.7%;
+  padding-right: 5.7vw;
+}
+.remove-rss p {
+  margin-top: 1.5%;
+}
+.remove-feed-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.remove-feed-url {
+  margin-bottom: 1%;
+}
+
+.remove-feed-button {
+  color: red;
+  margin-left: 2%;
+}
+
+.remove-feed-button:hover {
+  cursor: pointer;
+  text-shadow: 0.5px 0.5px #ff0000;
+}

@@ -1,12 +1,6 @@
-import React from 'react'
-import Item from '../components/Item'
+import React from "react";
+import Feed from "../components/Feed";
 
-function HomePage() {
+const HomePage = () => <Feed />;
 
-
-    return (
-        <Item />
-    )
-}
-
-export default HomePage
+export default HomePage;
